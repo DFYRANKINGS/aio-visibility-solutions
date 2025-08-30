@@ -8,7 +8,7 @@ export const Footer = () => {
               <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-sm">AI</span>
               </div>
-              <h3 className="text-xl font-bold">AI Visibility Pro</h3>
+              <h3 className="text-xl font-bold">AI Visibility Experts</h3>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md">
               Helping small businesses get recommended by AI agents and dominate 
@@ -46,7 +46,7 @@ export const Footer = () => {
         
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-muted-foreground text-sm">
-            © 2024 AI Visibility Pro. All rights reserved.
+            © 2024 AI Visibility Experts. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-muted-foreground hover:text-foreground text-sm transition-smooth">Privacy Policy</a>

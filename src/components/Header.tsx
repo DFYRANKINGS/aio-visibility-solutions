@@ -9,7 +9,7 @@ export const Header = () => {
             <span className="text-white font-bold text-sm">AI</span>
           </div>
           <h1 className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-            AI Visibility Pro
+            AI Visibility Experts
           </h1>
         </div>
         
@@ -20,7 +20,7 @@ export const Header = () => {
           <a href="#pricing" className="text-muted-foreground hover:text-foreground transition-smooth">
             Pricing
           </a>
-          <a href="#about" className="text-muted-foreground hover:text-foreground transition-smooth">
+          <a href="/about" className="text-muted-foreground hover:text-foreground transition-smooth">
             About
           </a>
         </nav>
