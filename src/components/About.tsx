@@ -1,22 +1,21 @@
-import { Header } from "@/components/Header";
-import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
 
-const About = () => {
+interface AboutProps {
+  id?: string;
+}
+
+export const About = ({ id = "about" }: AboutProps) => {
   return (
-    <div className="min-h-screen">
-      <Header />
-      
-      {/* Hero Section */}
-      <section className="pt-24 pb-12 bg-gradient-subtle">
+    <>
+      {/* About Hero Section */}
+      <section id={id} className="py-20 bg-gradient-subtle">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">
             About
             <span className="block bg-gradient-primary bg-clip-text text-transparent">
               AI Visibility Experts
             </span>
-          </h1>
+          </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             We're the pioneering team that recognized the seismic shift in how customers discover businesses. 
             When AI agents started answering questions before users could scroll to actual websites, we knew everything had changed.
@@ -29,9 +28,9 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <h2 className="text-3xl md:text-4xl font-bold">
+              <h3 className="text-3xl md:text-4xl font-bold">
                 The Problem We Solve
-              </h2>
+              </h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 In 2023, we watched as our clients' Google rankings became meaningless overnight. 
                 Businesses ranking #1 saw their traffic plummet as AI overviews provided instant answers, 
@@ -44,7 +43,7 @@ const About = () => {
               </p>
             </div>
             <Card className="p-8 bg-gradient-subtle shadow-ai">
-              <h3 className="text-2xl font-bold mb-4">The Turning Point</h3>
+              <h4 className="text-2xl font-bold mb-4">The Turning Point</h4>
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
                   <span>Traditional Search Traffic</span>
@@ -68,9 +67,9 @@ const About = () => {
       <section className="py-20 bg-gradient-subtle">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            <h3 className="text-3xl md:text-4xl font-bold mb-6">
               Our Expertise
-            </h2>
+            </h3>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               We've spent over 18 months reverse-engineering how AI agents source their recommendations, 
               building the most comprehensive AI visibility system in the market.
@@ -80,7 +79,7 @@ const About = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="p-6 text-center shadow-card">
               <div className="text-4xl mb-4">🤖</div>
-              <h3 className="text-xl font-bold mb-3">AI Agent Research</h3>
+              <h4 className="text-xl font-bold mb-3">AI Agent Research</h4>
               <p className="text-muted-foreground">
                 Deep analysis of how ChatGPT, Gemini, Perplexity, and 15+ other AI platforms 
                 source and rank business recommendations.
@@ -89,7 +88,7 @@ const About = () => {
             
             <Card className="p-6 text-center shadow-card">
               <div className="text-4xl mb-4">📊</div>
-              <h3 className="text-xl font-bold mb-3">Data Publishing</h3>
+              <h4 className="text-xl font-bold mb-3">Data Publishing</h4>
               <p className="text-muted-foreground">
                 Proprietary network of 100+ high-authority platforms where we strategically 
                 publish business data for maximum AI crawl visibility.
@@ -98,7 +97,7 @@ const About = () => {
             
             <Card className="p-6 text-center shadow-card">
               <div className="text-4xl mb-4">📈</div>
-              <h3 className="text-xl font-bold mb-3">Performance Tracking</h3>
+              <h4 className="text-xl font-bold mb-3">Performance Tracking</h4>
               <p className="text-muted-foreground">
                 Custom monitoring systems that track AI mention frequency across platforms 
                 and optimize recommendations in real-time.
@@ -112,9 +111,9 @@ const About = () => {
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            <h3 className="text-3xl md:text-4xl font-bold mb-6">
               Meet the Experts
-            </h2>
+            </h3>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Our team combines deep SEO expertise with cutting-edge AI research to stay ahead of the curve.
             </p>
@@ -125,7 +124,7 @@ const About = () => {
               <div className="w-20 h-20 bg-gradient-primary rounded-full mx-auto mb-4 flex items-center justify-center text-white text-2xl font-bold">
                 SM
               </div>
-              <h3 className="text-xl font-bold mb-2">Sarah Martinez</h3>
+              <h4 className="text-xl font-bold mb-2">Sarah Martinez</h4>
               <p className="text-primary font-semibold mb-3">Chief AI Strategist</p>
               <p className="text-sm text-muted-foreground">
                 Former Google engineer with 8 years in search algorithms. 
@@ -137,7 +136,7 @@ const About = () => {
               <div className="w-20 h-20 bg-gradient-primary rounded-full mx-auto mb-4 flex items-center justify-center text-white text-2xl font-bold">
                 DK
               </div>
-              <h3 className="text-xl font-bold mb-2">David Kim</h3>
+              <h4 className="text-xl font-bold mb-2">David Kim</h4>
               <p className="text-primary font-semibold mb-3">Data Publishing Director</p>
               <p className="text-sm text-muted-foreground">
                 Built and manages our network of 100+ high-authority platforms. 
@@ -149,7 +148,7 @@ const About = () => {
               <div className="w-20 h-20 bg-gradient-primary rounded-full mx-auto mb-4 flex items-center justify-center text-white text-2xl font-bold">
                 AR
               </div>
-              <h3 className="text-xl font-bold mb-2">Alex Rodriguez</h3>
+              <h4 className="text-xl font-bold mb-2">Alex Rodriguez</h4>
               <p className="text-primary font-semibold mb-3">Performance Analytics Lead</p>
               <p className="text-sm text-muted-foreground">
                 Develops custom tracking systems for AI mention monitoring. 
@@ -164,9 +163,9 @@ const About = () => {
       <section className="py-20 bg-gradient-subtle">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            <h3 className="text-3xl md:text-4xl font-bold mb-6">
               Our Track Record
-            </h2>
+            </h3>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               We've helped over 500 businesses transform their AI visibility and dominate AI search results.
             </p>
@@ -195,33 +194,6 @@ const About = () => {
           </div>
         </div>
       </section>
-
-      {/* CTA */}
-      <section className="py-20 bg-primary">
-        <div className="container mx-auto px-4 text-center">
-          <Card className="p-12 bg-white/10 backdrop-blur-lg border-white/20 shadow-glow max-w-4xl mx-auto text-white">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Ready to Work with the Experts?
-            </h2>
-            <p className="text-xl mb-8 opacity-90 leading-relaxed">
-              Join the 500+ businesses that trust AI Visibility Experts to get them recommended by AI agents.
-            </p>
-            
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button variant="secondary" size="lg" className="text-lg px-8 py-6">
-                Start Free AI Audit
-              </Button>
-              <Button variant="outline" size="lg" className="text-lg px-8 py-6 border-white/20 text-white hover:bg-white/10">
-                Schedule Strategy Call
-              </Button>
-            </div>
-          </Card>
-        </div>
-      </section>
-
-      <Footer />
-    </div>
+    </>
   );
 };
-
-export default About;

@@ -14,14 +14,14 @@ export const Header = () => {
         </div>
         
         <nav className="hidden md:flex items-center space-x-6">
+          <a href="#about" className="text-muted-foreground hover:text-foreground transition-smooth">
+            About
+          </a>
           <a href="#services" className="text-muted-foreground hover:text-foreground transition-smooth">
             Services
           </a>
           <a href="#pricing" className="text-muted-foreground hover:text-foreground transition-smooth">
             Pricing
-          </a>
-          <a href="/about" className="text-muted-foreground hover:text-foreground transition-smooth">
-            About
           </a>
         </nav>
         
