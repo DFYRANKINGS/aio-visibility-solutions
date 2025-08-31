@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button";
 const plans = [
   {
     name: "Quarterly",
-    price: "$997",
-    originalPrice: "$1,994",
+    price: "$498.50",
+    originalPrice: "$997",
     period: "Every 3 months",
     description: "Perfect for established businesses looking to dominate AI search results",
     features: [
@@ -21,8 +21,8 @@ const plans = [
   },
   {
     name: "Semi-Annual",
-    price: "$1,997",
-    originalPrice: "$3,994",
+    price: "$998.50",
+    originalPrice: "$1,997",
     period: "Every 6 months",
     description: "Great balance of value and commitment for growing businesses",
     features: [
@@ -40,8 +40,8 @@ const plans = [
   },
   {
     name: "Annual",
-    price: "$2,995",
-    originalPrice: "$5,990",
+    price: "$1,497.50",
+    originalPrice: "$2,995",
     period: "Per year",
     description: "Best value for serious businesses committed to AI visibility leadership",
     features: [
