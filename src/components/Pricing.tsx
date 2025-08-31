@@ -4,7 +4,8 @@ import { Button } from "@/components/ui/button";
 const plans = [
   {
     name: "Quarterly",
-    price: "$2,997",
+    price: "$997",
+    originalPrice: "$1,994",
     period: "Every 3 months",
     description: "Perfect for established businesses looking to dominate AI search results",
     features: [
@@ -15,26 +16,47 @@ const plans = [
       "Priority email support",
       "Quarterly strategy calls"
     ],
-    popular: false
+    popular: false,
+    discount: "50% OFF"
+  },
+  {
+    name: "Semi-Annual",
+    price: "$1,997",
+    originalPrice: "$3,994",
+    period: "Every 6 months",
+    description: "Great balance of value and commitment for growing businesses",
+    features: [
+      "Everything in Quarterly plan",
+      "AI data publishing across 75+ platforms",
+      "Bi-weekly AI mention reporting",
+      "Content optimization for 15 key topics",
+      "Advanced citation building",
+      "Priority email & phone support",
+      "Bi-monthly strategy calls",
+      "Basic competitor analysis"
+    ],
+    popular: true,
+    discount: "50% OFF"
   },
   {
     name: "Annual",
-    price: "$9,997",
+    price: "$2,995",
+    originalPrice: "$5,990",
     period: "Per year",
     description: "Best value for serious businesses committed to AI visibility leadership",
     features: [
-      "Everything in Quarterly plan",
+      "Everything in Semi-Annual plan",
       "AI data publishing across 100+ platforms",
       "Weekly AI mention reporting",
       "Content optimization for 25 key topics",
-      "Advanced citation building",
+      "Premium citation building",
       "Dedicated account manager",
       "Monthly strategy calls",
-      "Competitor AI analysis",
+      "Advanced competitor AI analysis",
       "Custom AI training data preparation"
     ],
-    popular: true,
-    savings: "Save $2,991"
+    popular: false,
+    discount: "50% OFF"
   }
 ];
 
@@ -54,14 +76,14 @@ export const Pricing = ({ id }: PricingProps) => {
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Choose the plan that fits your business goals. Both plans include everything 
+            Choose the plan that fits your business goals. All plans include everything 
             you need to dominate AI search results and get recommended by major AI platforms.
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {plans.map((plan, index) => (
-            <Card key={index} className={`p-8 relative ${plan.popular ? 'border-primary shadow-ai' : 'shadow-card'}`}>
+            <Card key={index} className={`p-6 relative ${plan.popular ? 'border-primary shadow-ai' : 'shadow-card'}`}>
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
                   <span className="bg-gradient-primary text-white px-4 py-2 rounded-full text-sm font-semibold">
@@ -69,30 +91,33 @@ export const Pricing = ({ id }: PricingProps) => {
                   </span>
                 </div>
               )}
-              {plan.savings && (
-                <div className="absolute -top-4 right-4">
-                  <span className="bg-accent text-accent-foreground px-3 py-1 rounded-full text-xs font-semibold">
-                    {plan.savings}
-                  </span>
-                </div>
-              )}
-              
-              <div className="text-center mb-8">
-                <h3 className="text-2xl font-bold mb-2">{plan.name}</h3>
-                <div className="text-4xl font-bold mb-2">
-                  {plan.price}
-                  <span className="text-lg text-muted-foreground font-normal">/{plan.period}</span>
-                </div>
-                <p className="text-muted-foreground">{plan.description}</p>
+              <div className="absolute -top-4 right-4">
+                <span className="bg-accent text-accent-foreground px-3 py-1 rounded-full text-xs font-semibold">
+                  {plan.discount}
+                </span>
               </div>
               
-              <ul className="space-y-4 mb-8">
+              <div className="text-center mb-6">
+                <h3 className="text-xl font-bold mb-2">{plan.name}</h3>
+                <div className="mb-2">
+                  <div className="text-sm text-muted-foreground line-through">
+                    {plan.originalPrice}
+                  </div>
+                  <div className="text-3xl font-bold">
+                    {plan.price}
+                    <span className="text-sm text-muted-foreground font-normal">/{plan.period}</span>
+                  </div>
+                </div>
+                <p className="text-sm text-muted-foreground">{plan.description}</p>
+              </div>
+              
+              <ul className="space-y-3 mb-6">
                 {plan.features.map((feature, featureIndex) => (
-                  <li key={featureIndex} className="flex items-start space-x-3">
-                    <div className="w-5 h-5 bg-primary rounded-full flex items-center justify-center mt-0.5">
+                  <li key={featureIndex} className="flex items-start space-x-2">
+                    <div className="w-4 h-4 bg-primary rounded-full flex items-center justify-center mt-0.5">
                       <span className="text-white text-xs">✓</span>
                     </div>
-                    <span className="text-sm leading-relaxed">{feature}</span>
+                    <span className="text-xs leading-relaxed">{feature}</span>
                   </li>
                 ))}
               </ul>
