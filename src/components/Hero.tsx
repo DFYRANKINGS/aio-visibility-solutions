@@ -22,11 +22,11 @@ export const Hero = () => {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="ai" size="lg" className="text-lg px-8 py-6">
-                Start AI Visibility Audit
+              <Button variant="ai" size="lg" className="text-lg px-8 py-6" asChild>
+                <a href="#services">Get Listed in AI Search</a>
               </Button>
-              <Button variant="outline" size="lg" className="text-lg px-8 py-6">
-                See How It Works
+              <Button variant="outline" size="lg" className="text-lg px-8 py-6" asChild>
+                <a href="#services">See How It Works</a>
               </Button>
             </div>
             
