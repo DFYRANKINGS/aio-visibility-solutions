@@ -135,10 +135,9 @@ export const Pricing = ({ id }: PricingProps) => {
         
         <div className="mt-16 text-center">
           <Card className="p-8 bg-gradient-subtle border-primary/20 shadow-card max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold mb-4">30-Day Money-Back Guarantee</h3>
+            <h3 className="text-2xl font-bold mb-4">AI Visibility Guarantee</h3>
             <p className="text-lg text-muted-foreground mb-6">
-              We're so confident in our AI visibility system that we offer a full refund 
-              if you don't see measurable improvements in AI recommendations within 30 days.
+              We guarantee recommendations through our AI visibility system and offer monthly reports to track your online visibility, mentions, citations and recommendations across 15 of the primary AI search platforms. within 30 days.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
