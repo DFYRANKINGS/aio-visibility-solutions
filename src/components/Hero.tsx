@@ -17,7 +17,7 @@ export const Hero = () => {
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
                 AI overviews are stealing your traffic. Ranking #1 on Google isn't enough anymore. 
-                Get your business recommended by ChatGPT, Gemini, Perplexity, and all major AI agents.
+                Get your business recommended by ChatGPT, Gemini, Perplexity, and all major AI agents where your prospects are asking questions and making decisions.
               </p>
             </div>
             
