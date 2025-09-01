@@ -30,7 +30,7 @@ export const Header = () => {
             Login
           </Button>
           <Button variant="hero" asChild>
-            <a href="#services">Get Started</a>
+            <a href="#pricing">Get Started</a>
           </Button>
         </div>
       </div>
