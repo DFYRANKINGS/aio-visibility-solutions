@@ -15,28 +15,39 @@ export const CTA = () => {
             while your business remains invisible. Start your AI visibility transformation today.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-            <Button variant="secondary" size="lg" className="text-lg px-8 py-6">
-              Start Free AI Audit
-            </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 py-6 border-white/20 text-white hover:bg-white/10">
-              Schedule Strategy Call
-            </Button>
-          </div>
-          
-          <div className="grid md:grid-cols-3 gap-6 text-center mt-12">
-            <div>
-              <div className="text-3xl font-bold mb-2">500+</div>
-              <div className="text-sm opacity-80">Businesses Transformed</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold mb-2">94%</div>
-              <div className="text-sm opacity-80">Success Rate</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold mb-2">30 Days</div>
-              <div className="text-sm opacity-80">To See Results</div>
-            </div>
+          <div className="max-w-md mx-auto">
+            <form className="space-y-4">
+              <div className="grid grid-cols-2 gap-4">
+                <input
+                  type="text"
+                  placeholder="First Name"
+                  className="px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white/30"
+                />
+                <input
+                  type="text"
+                  placeholder="Last Name"
+                  className="px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white/30"
+                />
+              </div>
+              <input
+                type="email"
+                placeholder="Email Address"
+                className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white/30"
+              />
+              <input
+                type="tel"
+                placeholder="Phone Number"
+                className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white/30"
+              />
+              <textarea
+                placeholder="Tell us about your business and goals"
+                rows={3}
+                className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white/30 resize-none"
+              />
+              <Button variant="secondary" size="lg" className="w-full text-lg px-8 py-6">
+                Schedule a Call
+              </Button>
+            </form>
           </div>
         </Card>
       </div>
