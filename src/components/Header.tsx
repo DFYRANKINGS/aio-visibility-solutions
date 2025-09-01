@@ -29,8 +29,8 @@ export const Header = () => {
           <Button variant="ghost" className="hidden md:block">
             Login
           </Button>
-          <Button variant="hero">
-            Get Started
+          <Button variant="hero" asChild>
+            <a href="#services">Get Started</a>
           </Button>
         </div>
       </div>
