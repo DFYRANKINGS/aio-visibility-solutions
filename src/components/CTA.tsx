@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card";
 
 export const CTA = () => {
   return (
-    <section className="py-20 bg-gradient-primary">
+    <section id="contact" className="py-20 bg-gradient-primary">
       <div className="container mx-auto px-4 text-center">
         <Card className="p-12 bg-white/10 backdrop-blur-lg border-white/20 shadow-glow max-w-4xl mx-auto text-white">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">

@@ -11,33 +11,29 @@ export const Footer = () => {
               <h3 className="text-xl font-bold">AI Visibility Experts</h3>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md">
-              Helping small businesses get recommended by AI agents and dominate 
-              the new era of AI-powered search.
+              In today's digital landscape, AI visibility in search platforms like ChatGPT, Gemini, and Claude 
+              is more crucial than traditional Google rankings. AI agents are becoming the primary way customers 
+              discover businesses, making AI optimization the new frontier of digital marketing.
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-smooth">Twitter</a>
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-smooth">LinkedIn</a>
-              <a href="#" className="text-muted-foreground hover:text-foreground transition-smooth">YouTube</a>
-            </div>
           </div>
           
           <div>
             <h4 className="font-semibold mb-4">Services</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-smooth">AI Data Publishing</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-smooth">Content Optimization</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-smooth">Citation Building</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-smooth">Performance Monitoring</a></li>
+              <li><a href="#services" className="text-muted-foreground hover:text-foreground transition-smooth">AI Data Publishing</a></li>
+              <li><a href="#services" className="text-muted-foreground hover:text-foreground transition-smooth">Content Optimization</a></li>
+              <li><a href="#services" className="text-muted-foreground hover:text-foreground transition-smooth">Citation Building</a></li>
+              <li><a href="#services" className="text-muted-foreground hover:text-foreground transition-smooth">Performance Monitoring</a></li>
             </ul>
           </div>
           
           <div>
             <h4 className="font-semibold mb-4">Company</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-smooth">About Us</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-smooth">Case Studies</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-smooth">Contact</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-foreground transition-smooth">Blog</a></li>
+              <li><a href="#about" className="text-muted-foreground hover:text-foreground transition-smooth">About Us</a></li>
+              <li><a href="#contact" className="text-muted-foreground hover:text-foreground transition-smooth">Schedule a Call</a></li>
+              <li><a href="#contact" className="text-muted-foreground hover:text-foreground transition-smooth">Request More Info</a></li>
+              <li><a href="#contact" className="text-muted-foreground hover:text-foreground transition-smooth">Contact</a></li>
             </ul>
           </div>
         </div>
