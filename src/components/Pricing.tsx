@@ -21,8 +21,8 @@ const plans = [
   },
   {
     name: "Semi-Annual",
-    price: "$998.50",
-    originalPrice: "$1,997",
+    price: "$948.50",
+    originalPrice: "$1,897",
     period: "Every 6 months",
     description: "Great balance of value and commitment for growing businesses",
     features: [
