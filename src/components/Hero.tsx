@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import heroImage from "@/assets/ai-visibility-hero.jpg";
+import heroImage from "@/assets/ai-visibility-hero.png";
 
 export const Hero = () => {
   return (
@@ -47,6 +47,11 @@ export const Hero = () => {
           </div>
           
           <div className="relative">
+            <img 
+              src="/lovable-uploads/62e7a81d-009a-4a19-b37b-cab49f9b19a6.png" 
+              alt="AI Search Platforms - Get Recommended by Perplexity, iAsk and other AI agents" 
+              className="rounded-lg shadow-ai mb-6 w-full"
+            />
             <div className="relative z-10 bg-card/50 backdrop-blur-sm border rounded-lg p-8 shadow-ai">
               {/* AI Agents Recommending Section */}
               <div className="space-y-6">
