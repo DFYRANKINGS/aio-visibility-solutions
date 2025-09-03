@@ -47,7 +47,7 @@ export const Hero = () => {
           
           <div className="relative">
             <img 
-              src="/lovable-uploads/62e7a81d-009a-4a19-b37b-cab49f9b19a6.png" 
+              src="/lovable-uploads/1c81b497-ffeb-499f-bf63-9ee876be1a36.png" 
               alt="AI Search Platforms - Get Recommended by Perplexity, iAsk and other AI agents" 
               className="rounded-lg shadow-ai w-full"
             />
