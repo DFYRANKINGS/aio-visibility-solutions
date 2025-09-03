@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import heroImage from "@/assets/ai-visibility-hero.png";
 
 export const Hero = () => {
   return (
