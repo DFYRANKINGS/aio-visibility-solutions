@@ -167,19 +167,14 @@ export const About = ({ id = "about" }: AboutProps) => {
               Our Track Record
             </h3>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              We've helped over 500 businesses transform their AI visibility and dominate AI search results.
+              We've helped over 500 businesses transform their AI visibility and dominate AI search.
             </p>
           </div>
           
-          <div className="grid md:grid-cols-4 gap-8 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <Card className="p-6 text-center shadow-card">
               <div className="text-3xl font-bold text-primary mb-2">500+</div>
               <div className="text-sm text-muted-foreground">Businesses Transformed</div>
-            </Card>
-            
-            <Card className="p-6 text-center shadow-card">
-              <div className="text-3xl font-bold text-primary mb-2">94%</div>
-              <div className="text-sm text-muted-foreground">Success Rate</div>
             </Card>
             
             <Card className="p-6 text-center shadow-card">
