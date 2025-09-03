@@ -18,6 +18,9 @@ export const Hero = () => {
                 AI overviews are stealing your traffic. Ranking #1 on Google isn't enough anymore. 
                 Get your business recommended by ChatGPT, Gemini, Perplexity, and all major AI agents where your prospects are asking questions and making decisions.
               </p>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                AI Overview Optimization + Answer Engine Optimization + Generative Engine Optimization Services → Enterprise Services at Transparent Small Business Pricing.
+              </p>
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
