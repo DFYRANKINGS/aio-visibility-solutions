@@ -137,23 +137,20 @@ export const Pricing = ({ id }: PricingProps) => {
           <Card className="p-8 bg-gradient-subtle border-primary/20 shadow-card max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold mb-4">AI Visibility Guarantee</h3>
             <p className="text-lg text-muted-foreground mb-6">
-              We guarantee recommendations through our AI visibility system and offer monthly reports to track your online visibility, mentions, citations and recommendations across 15 of the primary AI search platforms. within 30 days.
+              We guarantee recommendations through our AI visibility system and offer monthly reports to track your online visibility, mentions, citations and recommendations across 15 of the primary AI search platforms.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
                 <div className="text-2xl mb-2">📈</div>
                 <div className="font-semibold">Guaranteed Results</div>
-                <div className="text-sm text-muted-foreground">Or your money back</div>
               </div>
               <div>
                 <div className="text-2xl mb-2">🤝</div>
                 <div className="font-semibold">Dedicated Support</div>
-                <div className="text-sm text-muted-foreground">Your success is our priority</div>
               </div>
               <div>
                 <div className="text-2xl mb-2">🚀</div>
                 <div className="font-semibold">Fast Implementation</div>
-                <div className="text-sm text-muted-foreground">See results in 30 days</div>
               </div>
             </div>
           </Card>
