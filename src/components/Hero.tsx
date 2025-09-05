@@ -37,8 +37,8 @@ export const Hero = () => {
             
             <div className="grid grid-cols-2 gap-4 pt-8">
               <Card className="p-4 text-center shadow-card">
-                <div className="text-2xl font-bold text-primary">94%</div>
-                <div className="text-sm text-muted-foreground">AI Recommendation Rate</div>
+                <div className="text-2xl font-bold text-primary">Less than 4%</div>
+                <div className="text-sm text-muted-foreground">Optimize for AI Citations</div>
               </Card>
               <Card className="p-4 text-center shadow-card">
                 <div className="text-2xl font-bold text-primary">15+</div>
