@@ -21,7 +21,7 @@ export const Header = () => {
             Services
           </a>
           <a href="#pricing" className="text-muted-foreground hover:text-foreground transition-smooth">
-            Pricing
+            Transparent Pricing
           </a>
         </nav>
         
