@@ -12,7 +12,7 @@ export const CTA = () => {
           </h2>
           <p className="text-xl mb-8 opacity-90 leading-relaxed">
             Every day you wait, your competitors are getting recommended by ChatGPT, Gemini, and other AI platforms 
-            while your business remains invisible. Start your AI visibility transformation today.
+            while your business remains invisible. Start your AI visibility transformation today with a Free AI Citation & Visibility Audit.
           </p>
           
           <div className="max-w-md mx-auto">
@@ -45,8 +45,32 @@ export const CTA = () => {
                 className="w-full px-4 py-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white/30 resize-none"
               />
               <Button variant="secondary" size="lg" className="w-full text-lg px-8 py-6">
-                Schedule a Call
+                Get Your Free Audit Now
               </Button>
+              
+              {/* Trust Signals */}
+              <div className="mt-8 pt-6 border-t border-white/20">
+                <div className="flex items-center justify-center space-x-8 text-white/80">
+                  <div className="flex items-center space-x-2">
+                    <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center">
+                      <span className="text-sm font-bold">✓</span>
+                    </div>
+                    <span className="text-sm">500+ Businesses Served</span>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center">
+                      <span className="text-sm font-bold">⚡</span>
+                    </div>
+                    <span className="text-sm">24-Hour Response</span>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center">
+                      <span className="text-sm font-bold">🔒</span>
+                    </div>
+                    <span className="text-sm">100% Confidential</span>
+                  </div>
+                </div>
+              </div>
             </form>
           </div>
         </Card>
