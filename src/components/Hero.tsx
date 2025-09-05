@@ -19,7 +19,7 @@ export const Hero = () => {
                 Get your business recommended by ChatGPT, Gemini, Perplexity, and all major AI agents where your prospects are asking questions and making decisions.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                AI Overview Optimization + Answer Engine Optimization + Generative Engine Optimization Services → Enterprise Services at Transparent Small Business Pricing.
+                Get listed in AI search (answer engines) across the web. We specialize in AI Overview Optimization + Answer Engine Optimization + Generative Engine Optimization Services → Enterprise Services at Transparent Small Business Pricing.
               </p>
             </div>
             
