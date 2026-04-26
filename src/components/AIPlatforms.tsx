@@ -47,7 +47,7 @@ export const AIPlatforms = () => {
           <Card className="p-8 bg-gradient-subtle border-primary/20 shadow-ai max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold mb-4">The Problem is Real</h3>
             <p className="text-lg text-muted-foreground mb-6">
-              Studies show that 67% of users never scroll past AI-generated answers. Why? Because their questions have been answered, or someone else was recommended in those answers so they clicked on their website. No need to scroll down Google! 
+              Studies show that 67% of users never scroll past AI-generated answers. Why? Because their questions have been answered, or someone else was recommended in those answers. No need to scroll down Google! 
               If your business isn't being recommended by AI agents, you're practically invisible to potential customers. Very few people scroll down Google to search for websites to search for information.  Answer engines are providing the information they are looking for and recommending experts.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
