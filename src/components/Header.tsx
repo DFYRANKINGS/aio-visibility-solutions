@@ -26,9 +26,6 @@ export const Header = () => {
         </nav>
         
         <div className="flex items-center space-x-4">
-          <Button variant="ghost" className="hidden md:block">
-            Login
-          </Button>
           <Button variant="hero" asChild>
             <a href="#pricing">Get Started</a>
           </Button>
