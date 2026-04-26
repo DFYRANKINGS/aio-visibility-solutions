@@ -47,11 +47,23 @@ export const Hero = () => {
           </div>
           
           <div className="relative">
-            <img 
-              src="/lovable-uploads/1c81b497-ffeb-499f-bf63-9ee876be1a36.png" 
-              alt="AI Search Platforms - Get Recommended by Perplexity, iAsk and other AI agents" 
-              className="rounded-lg shadow-ai w-full"
-            />
+            <div className="aspect-video w-full rounded-lg shadow-ai bg-muted border border-border flex flex-col items-center justify-center text-center p-8">
+              <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-4">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  className="w-8 h-8 text-primary"
+                  aria-hidden="true"
+                >
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </div>
+              <p className="text-lg font-semibold text-foreground">Video Coming Soon</p>
+              <p className="text-sm text-muted-foreground mt-1">
+                Placeholder for AI Visibility overview video
+              </p>
+            </div>
           </div>
         </div>
       </div>
