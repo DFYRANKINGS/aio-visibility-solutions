@@ -21,10 +21,10 @@ export const Hero = () => {
                 To get listed in AI search (answer engines) across the web, you need to repurpose your information into machine-readable data (which is structured data), that looks similar to HTML, but for LLMs/AI bots. We specialize in AI Optimization + Answer Engine Optimization + Generative Engine Optimization by transforming your information into datasets AI can understand, and distributing it across platforms AI bots crawl to learn from. 
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                → What this does, when AI sees your consistent information everywhere it looks, it creates an <b>"authority network of <i>entity recognition"</i></b> so your business is validated and trusted by AI. 
+                → What this does, when AI sees your consistent information everywhere it looks, it creates an <b>"authority network of <i>entity recognition"</i></b> so your business is recognized, validated and trusted by AI. 
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Some agencies are actually calling this Search <b>"Everywhere"</b> Optimization... the new SEO is "AI SEO," which is for search engines + AI search / answer engines.
+                Some agencies are referring to this as "Search <b>Everywhere</b> Optimization".  The new SEO is "AI SEO," which is for search engines + AI search / answer engines.
                 </p>
             </div>
 
