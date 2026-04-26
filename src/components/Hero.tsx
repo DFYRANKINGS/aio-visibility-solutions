@@ -9,25 +9,24 @@ export const Hero = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-5xl font-bold leading-tight tracking-tight text-foreground">
-                Get Your Business
+                How to Get Your Business
                 <span className="block text-primary">
                   Recommended by AI
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
-                AI overviews are stealing your traffic. Ranking #1 on Google isn't enough anymore. 
-                Get your business recommended by ChatGPT, Gemini, Perplexity, and all major AI agents where your prospects are asking questions and making decisions.
+                AI overviews are blocking your rankings on Google, so why not get inside Google's AI overviews, snippets and AI citations? Ranking on Google just isn't enough anymore. The way to get your business recommended by ChatGPT, Gemini, Perplexity, and inside Google's AI overviews and inside all the major AI answer engines is easy.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Get listed in AI search (answer engines) across the web. We specialize in AI Overview Optimization + Answer Engine Optimization + Generative Engine Optimization Services to get you cited and recommended to your prospects.
+                To get listed in AI search (answer engines) across the web, you need to repurpose your information into machine-readable data, which is structured data, that looks like HTML, but for LLMs/AI bots. We specialize in AI Optimization + Answer Engine Optimization + Generative Engine Optimization by turning your data into what AI can understand, hand distribute it across platforms AI bots crawl to learn.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                → Enterprise Services at Transparent Small Business Pricing.
+                → We provide "enterprise level services" at "small business level pricing."
               </p>
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="ai" size="lg" className="text-lg px-8 py-6" asChild>
+              <Button variant="default" size="lg" className="text-lg px-8 py-6" asChild>
                 <a href="#services">Get Listed in AI Search</a>
               </Button>
               <Button variant="outline" size="lg" className="text-lg px-8 py-6" asChild>
