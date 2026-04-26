@@ -124,12 +124,15 @@ export const Pricing = ({ id }: PricingProps) => {
                 ))}
               </ul>
               
-              <Button 
-                variant={plan.popular ? "ai" : "outline"} 
+              <Button
+                variant="default"
                 className="w-full"
                 size="lg"
+                asChild
               >
-                {plan.popular ? "Get Started Now" : "Choose Plan"}
+                <a href={plan.paymentLink} target="_blank" rel="noopener noreferrer">
+                  {plan.popular ? "Get Started Now" : "Choose Plan"}
+                </a>
               </Button>
             </Card>
           ))}
