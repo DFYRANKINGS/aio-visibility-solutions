@@ -8,8 +8,8 @@ export const Header = () => {
           <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
             <span className="text-white font-bold text-sm">AI</span>
           </div>
-          <h1 className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-            AI Visibility Experts
+          <h1 className="text-xl font-semibold text-foreground">
+            AI Visibility Solutions
           </h1>
         </div>
         

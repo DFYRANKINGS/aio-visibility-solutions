@@ -8,9 +8,9 @@ export const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="space-y-4">
-              <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+              <h1 className="text-4xl md:text-5xl font-bold leading-tight tracking-tight text-foreground">
                 Get Your Business
-                <span className="block bg-gradient-primary bg-clip-text text-transparent">
+                <span className="block text-primary">
                   Recommended by AI
                 </span>
               </h1>
