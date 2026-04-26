@@ -21,13 +21,13 @@ export const AIPlatforms = () => {
       <div className="container mx-auto px-4">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-3xl md:text-4xl font-bold">
-            Get Cited/Referred to Your Prospects by
+            Get Recommended to Your Prospects in
             <span className="block text-primary">
               15+ Major AI Platforms
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            We ensure your structured data is distributed across over 55+ platforms where all LLMs and major AI bots crawl to get their information from, so they can learn how to answer your prospects' questions and give them a link to your website contact information. The more platforms you are distributed to, the more you will increase your chances of being recommended.
+            We ensure your structured data is distributed across 55+ platforms where LLMs and major AI bots crawl to gather their information from, so they can learn how to answer your prospects' questions (and give them a link to your website). The more platforms you are distributed to, the more you will increase your chances of being recognized + recommended.
           </p>
         </div>
         
