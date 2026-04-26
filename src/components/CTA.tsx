@@ -15,7 +15,7 @@ export const CTA = () => {
           </p>
 
           <div className="flex justify-center mb-10">
-            <Button variant="default" size="lg" className="text-lg px-8 py-6" asChild>
+            <Button size="lg" className="text-lg px-8 py-6 bg-white text-primary hover:bg-white/90" asChild>
               <a href="#pricing">Get Recommended by AI</a>
             </Button>
           </div>
