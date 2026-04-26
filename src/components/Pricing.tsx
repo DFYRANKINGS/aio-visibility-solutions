@@ -78,7 +78,7 @@ export const Pricing = ({ id }: PricingProps) => {
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-           We specialize in <b>AI distribution + entity reinforcement </b>across the web, to create an <b>"authority network" </b>where AI bots crawl for information. Why? Because AI trusts <i><b>connected, repeated, and consistent </b></i>information across the web.  
+           We specialize in <b>AI distribution + entity reinforcement </b>across the web, to create an <b><i>authority network</i> </b>where AI bots crawl to get their information from. Why? Because AI trusts <i><b>connected, repeated, and consistent </b></i>entity recognition across the web.  
           </p>
         </div>
         
