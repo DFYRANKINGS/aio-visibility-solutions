@@ -15,13 +15,13 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
-                AI overviews are blocking your rankings on Google, so why not get inside Google's AI overviews, snippets and AI citations? Ranking on Google just isn't enough anymore. The way to get your business recommended by ChatGPT, Gemini, Perplexity, and inside Google's AI overviews and inside all the major AI answer engines is easy.
+                AI overviews are blocking your rankings on Google, so why not get inside Google's AI overviews, snippets and AI citations? <b><i>Ranking on Google just isn't enough anymore.</i></b> The way to get your business recommended by ChatGPT, Gemini, Perplexity, and inside Google's AI overviews and inside all the major AI answer engines is easy.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                To get listed in AI search (answer engines) across the web, you need to repurpose your information into machine-readable data (which is structured data), that looks similar to HTML, but for LLMs/AI bots. We specialize in AI Optimization + Answer Engine Optimization + Generative Engine Optimization by transforming your information into datasets AI can understand, and distributing it across platforms AI bots crawl to learn from. 
+                To get listed in AI search (answer engines) across the web, you need to repurpose your information into machine-readable data (which is structured data), that looks similar to HTML, but it's for LLMs/AI bots. We specialize in AI Optimization + Answer Engine Optimization + Generative Engine Optimization <b>by transforming your information into datasets AI can understand, </b>and distributing it across platforms AI bots crawl to learn from. 
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                → What this does, when AI sees your consistent information everywhere it looks, it creates an <b>"authority network of <i>entity recognition"</i></b> so your business is recognized, validated and trusted by AI. 
+                → What this does, when AI sees your consistent information everywhere it looks, it creates an <b>"authority network of <i>entity recognition,"</i></b> so your business is recognized, validated and trusted by AI. 
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 Some agencies are referring to this as "Search <b>Everywhere</b> Optimization".  The new SEO is "AI SEO," which is for search engines + AI search / answer engines.
