@@ -116,58 +116,6 @@ export const About = ({ id = "about" }: AboutProps) => {
         </div>
       </section>
 
-      {/* Team */}
-      <section className="py-20 bg-background">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h3 className="text-3xl md:text-4xl font-bold mb-6">
-              Meet the Experts
-            </h3>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Our team combines deep SEO expertise with cutting-edge AI research to stay ahead of the curve.
-            </p>
-          </div>
-          
-          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            <Card className="p-6 text-center shadow-card">
-              <div className="w-20 h-20 bg-gradient-primary rounded-full mx-auto mb-4 flex items-center justify-center text-white text-2xl font-bold">
-                SM
-              </div>
-              <h4 className="text-xl font-bold mb-2">Sarah Martinez</h4>
-              <p className="text-primary font-semibold mb-3">Chief AI Strategist</p>
-              <p className="text-sm text-muted-foreground">
-                Former Google engineer with 8 years in search algorithms. 
-                Now specializes in AI agent behavior analysis.
-              </p>
-            </Card>
-            
-            <Card className="p-6 text-center shadow-card">
-              <div className="w-20 h-20 bg-gradient-primary rounded-full mx-auto mb-4 flex items-center justify-center text-white text-2xl font-bold">
-                DK
-              </div>
-              <h4 className="text-xl font-bold mb-2">David Kim</h4>
-              <p className="text-primary font-semibold mb-3">Data Publishing Director</p>
-              <p className="text-sm text-muted-foreground">
-                Built and manages our network of 100+ high-authority platforms. 
-                Expert in structured data and knowledge graphs.
-              </p>
-            </Card>
-            
-            <Card className="p-6 text-center shadow-card">
-              <div className="w-20 h-20 bg-gradient-primary rounded-full mx-auto mb-4 flex items-center justify-center text-white text-2xl font-bold">
-                AR
-              </div>
-              <h4 className="text-xl font-bold mb-2">Alex Rodriguez</h4>
-              <p className="text-primary font-semibold mb-3">Performance Analytics Lead</p>
-              <p className="text-sm text-muted-foreground">
-                Develops custom tracking systems for AI mention monitoring. 
-                PhD in Machine Learning from Stanford.
-              </p>
-            </Card>
-          </div>
-        </div>
-      </section>
-
       {/* Results */}
       <section className="py-20 bg-gradient-subtle">
         <div className="container mx-auto px-4">
