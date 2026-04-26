@@ -99,7 +99,7 @@ export const About = ({ id = "about" }: AboutProps) => {
               <div className="text-4xl mb-4">📊</div>
               <h4 className="text-xl font-bold mb-3">Data Publishing</h4>
               <p className="text-muted-foreground">
-                Proprietary network of 100+ high-authority platforms where we strategically 
+                Proprietary network of 55+ high-authority platforms where we strategically 
                 publish business data for maximum AI crawl visibility.
               </p>
             </Card>
@@ -124,7 +124,7 @@ export const About = ({ id = "about" }: AboutProps) => {
               Our Track Record
             </h3>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              We've helped over 500 businesses transform their AI visibility and dominate AI search.
+              We've helped over 300 businesses transform their AI visibility and dominate AI search.
             </p>
           </div>
           
