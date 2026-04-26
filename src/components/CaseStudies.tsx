@@ -69,7 +69,7 @@ export const CaseStudies = ({ id }: CaseStudiesProps) => {
             Real Results from Real Businesses
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            See how businesses across industries transformed their AI visibility and achieved measurable growth with our optimization strategies.
+            See how businesses across several industries transformed their AI visibility and achieved measurable growth with our distribution and AI optimization strategies.
           </p>
         </div>
 
