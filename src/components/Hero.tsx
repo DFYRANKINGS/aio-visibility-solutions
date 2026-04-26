@@ -61,7 +61,17 @@ export const Hero = () => {
               </div>
               <p className="text-lg font-semibold text-foreground">Video Coming Soon</p>
               <p className="text-sm text-muted-foreground mt-1">
-                Placeholder for AI Visibility overview video
+                <script src="https://fast.wistia.com/player.js" async></script>
+<script src="https://fast.wistia.com/embed/il593oynbl.js" async type="module"></script>
+<style>{`
+  wistia-player[media-id='il593oynbl']:not(:defined) {
+    background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/il593oynbl/swatch');
+    display: block;
+    filter: blur(5px);
+    padding-top: 56.25%;
+  }
+`}</style>
+<wistia-player media-id="il593oynbl" aspect="1.7777777777777777"></wistia-player>
               </p>
             </div>
           </div>
