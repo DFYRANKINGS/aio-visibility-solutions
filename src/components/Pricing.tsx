@@ -74,12 +74,12 @@ export const Pricing = ({ id }: PricingProps) => {
           <h2 className="text-3xl md:text-4xl font-bold">
             Transparent Pricing for
             <span className="block bg-gradient-primary bg-clip-text text-transparent">
-              AI Visibility Success
+              AI Visibility Optimization Services
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Choose the plan that fits your business goals. All plans include everything 
-            you need to dominate AI search results and get recommended by major AI platforms.
+            you need to dominate AI search results and get recommended by major AI platforms. Our pricing structure for a full 12 months is less than one (1) month of typical agency fees. We recommend a 12-month commitment to build your "authority network" month by month for the lowest upfront cost.
           </p>
         </div>
         
