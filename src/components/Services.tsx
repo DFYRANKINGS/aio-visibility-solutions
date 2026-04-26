@@ -74,8 +74,8 @@ export const Services = ({ id }: ServicesProps) => {
               Google's AI overviews, ChatGPT searches, and Perplexity answers are changing how people find businesses. 
               Being #1 on Google means nothing if AI gives the answer before users see your link.
             </p>
-            <Button variant="default" size="lg" asChild>
-              <a href="#pricing">Schedule Free AI Visibility Audit</a>
+            <Button size="lg" asChild className="bg-white text-secondary hover:bg-white/90">
+              <a href="#pricing">Get Recommended by AI</a>
             </Button>
           </Card>
         </div>
