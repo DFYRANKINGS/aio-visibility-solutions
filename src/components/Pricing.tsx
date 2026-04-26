@@ -146,7 +146,7 @@ export const Pricing = ({ id }: PricingProps) => {
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
                 <div className="text-2xl mb-2">📈</div>
-                <div className="font-semibold">Guaranteed Results</div>
+                <div className="font-semibold">Guaranteed Distribution</div>
               </div>
               <div>
                 <div className="text-2xl mb-2">🤝</div>
