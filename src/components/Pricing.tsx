@@ -3,49 +3,50 @@ import { Button } from "@/components/ui/button";
 
 const plans = [
   {
-    name: "Quarterly",
-    price: "$498.50",
+    name: "Monthly",
+    price: "$497",
     originalPrice: "$997",
-    period: "Every 3 months",
-    description: "Perfect for established businesses looking to dominate AI search results",
+    period: "Per month",
+    description: "Jump-start your AI visibility with month-to-month flexibility",
     features: [
       "AI data publishing across 50+ platforms",
       "Monthly AI mention reporting",
       "Content optimization for 10 key topics",
       "Citation building campaign",
-      "Priority email support",
-      "Quarterly strategy calls"
+      "Priority email support"
     ],
     popular: false,
-    discount: "50% OFF"
+    discount: "50% OFF",
+    paymentLink: "https://buy.stripe.com/dRm8wPgGXd8H12k3Zvcwg0p"
   },
   {
-    name: "Semi-Annual",
-    price: "$898.50",
-    originalPrice: "$1,797",
-    period: "Every 6 months",
+    name: "Quarterly",
+    price: "$997",
+    originalPrice: "$1,997",
+    period: "Every 3 months",
     description: "Great balance of value and commitment for growing businesses",
     features: [
-      "Everything in Quarterly plan",
+      "Everything in Monthly plan",
       "AI data publishing across 75+ platforms",
       "Bi-weekly AI mention reporting",
       "Content optimization for 15 key topics",
       "Advanced citation building",
       "Priority email & phone support",
-      "Bi-monthly strategy calls",
+      "Quarterly strategy calls",
       "Basic competitor analysis"
     ],
     popular: true,
-    discount: "50% OFF"
+    discount: "50% OFF",
+    paymentLink: "https://buy.stripe.com/3cI5kD1M32u35iAgMhcwg00"
   },
   {
     name: "Annual",
-    price: "$1,497.50",
-    originalPrice: "$2,995",
+    price: "$2,997",
+    originalPrice: "$5,997",
     period: "Per year",
     description: "Best value for serious businesses committed to AI visibility leadership",
     features: [
-      "Everything in Semi-Annual plan",
+      "Everything in Quarterly plan",
       "AI data publishing across 100+ platforms",
       "Weekly AI mention reporting",
       "Content optimization for 25 key topics",
@@ -56,7 +57,8 @@ const plans = [
       "Custom AI training data preparation"
     ],
     popular: false,
-    discount: "50% OFF"
+    discount: "50% OFF",
+    paymentLink: "https://buy.stripe.com/5kQ14n0HZ8Sr7qI9jPcwg02"
   }
 ];
 
