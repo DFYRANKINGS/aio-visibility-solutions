@@ -78,7 +78,7 @@ export const Pricing = ({ id }: PricingProps) => {
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-           Our pricing structure for a full 12 months is less than one (1) month of typical agency fees. We recommend a 12-month commitment to build your "authority network" month by month for the lowest upfront cost.
+           Our pricing structure for a full 12 months is less than one (1) month of typical agency fees. We specialize in AI distribution + entity reinforcement across the web, to create an "authority network" where AI bots crawl for information. Why? Because AI trusts <i>connected, repeated, and consistent </i>information.  
           </p>
         </div>
         
