@@ -18,8 +18,8 @@ const services = [
     features: ["News mentions", "Industry publications", "Expert quotes", "Case study features"]
   },
   {
-    title: "Performance Monitoring",
-    description: "Track how often your business is recommended by different AI platforms and optimize accordingly.",
+    title: "Performance Reporting",
+    description: "We provide reports on the distribution across different AI platforms and links to your AI crawlable sites.",
     features: ["AI mention tracking", "Recommendation analytics", "Competitor analysis", "ROI reporting"]
   }
 ];
@@ -40,8 +40,8 @@ export const Services = ({ id }: ServicesProps) => {
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Our comprehensive approach ensures your business is discoverable and recommended 
-            by AI agents when prospects search for your products or services.
+            Our comprehensive approach ensures your business is recognized, discoverable and recommended 
+            by AI agents when prospects search for your services.
           </p>
         </div>
         
@@ -72,7 +72,7 @@ export const Services = ({ id }: ServicesProps) => {
             <h3 className="text-2xl font-bold mb-4">Why Traditional SEO Isn't Enough</h3>
             <p className="text-lg mb-6 opacity-90">
               Google's AI overviews, ChatGPT searches, and Perplexity answers are changing how people find businesses. 
-              Being #1 on Google means nothing if AI gives the answer before users see your link.
+              Being the #1 ranked website on Google means nothing if AI gives the answer before users see your link.
             </p>
             <Button size="lg" asChild className="bg-white text-secondary hover:bg-white/90">
               <a href="#pricing">Get Recommended by AI</a>
