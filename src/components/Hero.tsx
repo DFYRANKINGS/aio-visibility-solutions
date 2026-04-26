@@ -18,10 +18,10 @@ export const Hero = () => {
                 AI overviews are blocking your rankings on Google, so why not get inside Google's AI overviews, snippets and AI citations? Ranking on Google just isn't enough anymore. The way to get your business recommended by ChatGPT, Gemini, Perplexity, and inside Google's AI overviews and inside all the major AI answer engines is easy.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                To get listed in AI search (answer engines) across the web, you need to repurpose your information into machine-readable data (which is structured data), that looks similar to HTML, but for LLMs/AI bots. We specialize in AI Optimization + Answer Engine Optimization + Generative Engine Optimization by transforming your data into what AI can understand, and distributing it across platforms AI bots crawl to learn from. 
+                To get listed in AI search (answer engines) across the web, you need to repurpose your information into machine-readable data (which is structured data), that looks similar to HTML, but for LLMs/AI bots. We specialize in AI Optimization + Answer Engine Optimization + Generative Engine Optimization by transforming your information into datasets AI can understand, and distributing it across platforms AI bots crawl to learn from. 
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                → What this does, is when AI sees your consistent information everywhere it looks, it creates an "authority network of <i>entity recognition"</i> so your business is validated and trusted by AI. Some agencies are calling this Search <i>"Everywhere"</i> Optimization.
+                → What this does, when AI sees your consistent information everywhere it looks, it creates an <b>"authority network of <i>entity recognition"</i></b> so your business is validated and trusted by AI. Some agencies are calling this Search <b>"Everywhere"</b> Optimization... the "new" SEO is AI SEO for search engines and AI search and answer engines.
               </p>
             </div>
 
