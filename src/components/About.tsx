@@ -80,8 +80,8 @@ export const About = ({ id = "about" }: AboutProps) => {
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               We've spent 18+ months reverse-engineering how we got our clients discovered online. We went from ranking on Google to
               distributing our clients' information directly to platforms where AI agents source their information, to give them precisely
-              what they needed to answer our clients' prospects' questions. This is how we got started and have been building the most
-              comprehensive AI visibility system on the Internet ever since.
+              what they needed to answer our clients' prospects' questions. This is how we started building the most
+              comprehensive AI visibility system available today.
             </p>
           </div>
           
@@ -108,7 +108,7 @@ export const About = ({ id = "about" }: AboutProps) => {
               <div className="text-4xl mb-4">📈</div>
               <h4 className="text-xl font-bold mb-3">Performance Tracking</h4>
               <p className="text-muted-foreground">
-                Custom live reporting so you know where we are at all times 
+                Custom live reporting so you know where we are at all times, access your AI crawlable URLs, 
                 and optimize recommendations in real-time.
               </p>
             </Card>
