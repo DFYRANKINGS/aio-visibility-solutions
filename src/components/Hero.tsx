@@ -18,7 +18,7 @@ export const Hero = () => {
                 AI overviews are blocking your rankings on Google, so why not get inside Google's AI overviews, snippets and AI citations? Ranking on Google just isn't enough anymore. The way to get your business recommended by ChatGPT, Gemini, Perplexity, and inside Google's AI overviews and inside all the major AI answer engines is easy.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                To get listed in AI search (answer engines) across the web, you need to repurpose your information into machine-readable data, which is structured data, that looks like HTML, but for LLMs/AI bots. We specialize in AI Optimization + Answer Engine Optimization + Generative Engine Optimization by turning your data into what AI can understand, hand distribute it across platforms AI bots crawl to learn.
+                To get listed in AI search (answer engines) across the web, you need to repurpose your information into machine-readable data (which is structured data), that looks like HTML, but for LLMs/AI bots. We specialize in AI Optimization + Answer Engine Optimization + Generative Engine Optimization by turning your data into what AI can understand, and distribute it across platforms AI bots crawl to learn.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 → We provide "enterprise level services" at "small business level pricing."
