@@ -17,8 +17,10 @@ export const About = ({ id = "about" }: AboutProps) => {
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            We're the pioneering team that recognized the seismic shift in how customers discover businesses. 
-            When AI agents started answering questions before users could scroll to actual websites, we knew everything had changed.
+            We're the pioneering team that used to rank our clients on multiple first pages of Google with their most prominent keywords.
+            We recognized the seismic shift early, in how customers were discovering businesses just playing with AI in different answer
+            engines, like ChatGPT and so many more. But when AI agents started answering questions on Google before users would otherwise
+            scroll down the page to actual websites, we knew everything had changed.
           </p>
         </div>
       </section>
@@ -32,14 +34,19 @@ export const About = ({ id = "about" }: AboutProps) => {
                 The Problem We Solve
               </h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                In 2023, we watched as our clients' Google rankings became meaningless overnight. 
-                Businesses ranking #1 saw their traffic plummet as AI overviews provided instant answers, 
-                preventing users from ever clicking through to their websites.
+                We've been behind the scenes since 1998 creating websites, generating leads for our clients, and ranking them on Google.
+                But in 2023, we watched as our clients' Google rankings became meaningless overnight because no one was scrolling down
+                the page anymore to find them. Our clients' businesses that were ranking #1 even saw their traffic plummet. What we
+                discovered was AI overviews at the top of Google were providing instant answers, so people searching no longer needed
+                to continue scrolling down the page to discover their websites.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Traditional SEO agencies were still optimizing for search engines while customers 
-                were already getting their answers from ChatGPT, Gemini, and Perplexity. We realized 
-                the future wasn't about ranking for search engines—it was about being recommended by AI agents.
+                This was the pivoting moment that we decided to reverse-engineer our ranking strategy, to get our clients inside AI search.
+                After going from overwhelm to perplexed, we finally figured out where AI agents like ChatGPT, Google Gemini, and Perplexity
+                were getting their information from, and how to get our clients' information in front of them. Within a few short months—our
+                clients started getting recommended by AI agents who were answering their prospects' questions... which is when we made an
+                even bigger discovery: When those prospects clicked on the link and went to their websites, they had a higher conversion rate.
+                Why? Because most of their questions had already been answered, and they were pretty much ready to get started.
               </p>
             </div>
             <Card className="p-8 bg-gradient-subtle shadow-ai">
@@ -71,8 +78,10 @@ export const About = ({ id = "about" }: AboutProps) => {
               Our Expertise
             </h3>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              We've spent over 18 months reverse-engineering how AI agents source their recommendations, 
-              building the most comprehensive AI visibility system in the market.
+              We've spent 18+ months reverse-engineering how we got our clients discovered online. We went from ranking on Google to
+              distributing our clients' information directly to platforms where AI agents source their information, to give them precisely
+              what they needed to answer our clients' prospects' questions. This is how we got started and have been building the most
+              comprehensive AI visibility system on the Internet ever since.
             </p>
           </div>
           
