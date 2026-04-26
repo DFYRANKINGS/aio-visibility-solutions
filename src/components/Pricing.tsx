@@ -78,7 +78,7 @@ export const Pricing = ({ id }: PricingProps) => {
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-           Our pricing structure for a full 12 months is less than one (1) month of typical agency fees. We specialize in AI distribution + entity reinforcement across the web, to create an "authority network" where AI bots crawl for information. Why? Because AI trusts <i>connected, repeated, and consistent </i>information.  
+           We specialize in <b>AI distribution + entity reinforcement </b>across the web, to create an <b>"authority network" </b>where AI bots crawl for information. Why? Because AI trusts <i><b>connected, repeated, and consistent </b></i>information across the web.  
           </p>
         </div>
         
