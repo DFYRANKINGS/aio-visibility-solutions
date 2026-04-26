@@ -27,7 +27,7 @@ export const AIPlatforms = () => {
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            We ensure your structured data is distributed across 55+ platforms where LLMs and major AI bots crawl to gather their information from, so they can learn how to answer your prospects' questions (and give them a link to your website). The more platforms you are distributed to, the more you will increase your chances of being recognized + recommended.
+            We ensure your FAQs, case studies, and help articles are transformed into structured data, and distributed across 55+ platforms where LLMs and major AI bots crawl to gather their information from. AI bots / answer engines learn how to answer your prospects' questions (and give them a link to your website). The more platforms you are distributed to, the more your chances of being recognized + recommended.
           </p>
         </div>
         
@@ -47,8 +47,8 @@ export const AIPlatforms = () => {
           <Card className="p-8 bg-gradient-subtle border-primary/20 shadow-ai max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold mb-4">The Problem is Real</h3>
             <p className="text-lg text-muted-foreground mb-6">
-              Studies show that 67% of users never scroll past AI-generated answers. 
-              If your business isn't being recommended by AI agents, you're invisible to potential customers.
+              Studies show that 67% of users never scroll past AI-generated answers. Why? Because their questions have been answered, or someone else was recommended in those answers so they clicked on their website. No need to scroll down Google! 
+              If your business isn't being recommended by AI agents, you're practically invisible to potential customers. Very few people scroll down Google to search for websites to search for information.  Answer engines are providing the information they are looking for and recommending experts.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
