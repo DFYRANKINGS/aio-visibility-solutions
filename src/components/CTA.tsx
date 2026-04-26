@@ -11,7 +11,7 @@ export const CTA = () => {
             <span className="block">Ignore Your Business</span>
           </h2>
           <p className="text-xl mb-8 opacity-90 leading-relaxed">
-            Every day you wait, your competitors are getting recommended by ChatGPT, Gemini, and so many other AI platforms. Start your AI visibility transformation today.
+            Every day you wait, your competitors are getting their website recommended by ChatGPT, Gemini, and so many other AI platforms. Start your AI visibility transformation today.
           </p>
 
           <div className="flex justify-center mb-10">
@@ -27,7 +27,7 @@ export const CTA = () => {
                 <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center">
                   <span className="text-sm font-bold">✓</span>
                 </div>
-                <span className="text-sm">500+ Businesses Served</span>
+                <span className="text-sm">300+ Businesses Served</span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center">
