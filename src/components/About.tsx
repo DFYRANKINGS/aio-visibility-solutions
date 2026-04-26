@@ -108,7 +108,7 @@ export const About = ({ id = "about" }: AboutProps) => {
               <div className="text-4xl mb-4">📈</div>
               <h4 className="text-xl font-bold mb-3">Performance Tracking</h4>
               <p className="text-muted-foreground">
-                Custom monitoring systems that track AI mention frequency across platforms 
+                Custom live reporting so you know where we are at all times 
                 and optimize recommendations in real-time.
               </p>
             </Card>
@@ -130,7 +130,7 @@ export const About = ({ id = "about" }: AboutProps) => {
           
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <Card className="p-6 text-center shadow-card">
-              <div className="text-3xl font-bold text-primary mb-2">500+</div>
+              <div className="text-3xl font-bold text-primary mb-2">300+</div>
               <div className="text-sm text-muted-foreground">Businesses Transformed</div>
             </Card>
             
