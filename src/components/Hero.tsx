@@ -24,7 +24,7 @@ export const Hero = () => {
                 → We provide "enterprise level services" at "small business level pricing."
               </p>
             </div>
-            
+
             <div className="flex flex-col sm:flex-row gap-4">
               <Button variant="default" size="lg" className="text-lg px-8 py-6" asChild>
                 <a href="#services">Get Listed in AI Search</a>
@@ -33,7 +33,7 @@ export const Hero = () => {
                 <a href="#services">See How It Works</a>
               </Button>
             </div>
-            
+
             <div className="grid grid-cols-2 gap-4 pt-8">
               <Card className="p-4 text-center shadow-card">
                 <div className="text-2xl font-bold text-primary">Less than 4%</div>
@@ -45,34 +45,13 @@ export const Hero = () => {
               </Card>
             </div>
           </div>
-          
+
           <div className="relative">
-            <div className="aspect-video w-full rounded-lg shadow-ai bg-muted border border-border flex flex-col items-center justify-center text-center p-8">
-              <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                  className="w-8 h-8 text-primary"
-                  aria-hidden="true"
-                >
-                  <path d="M8 5v14l11-7z" />
-                </svg>
-              </div>
-              <p className="text-lg font-semibold text-foreground">Video Coming Soon</p>
-              <p className="text-sm text-muted-foreground mt-1">
-                <script src="https://fast.wistia.com/player.js" async></script>
-<script src="https://fast.wistia.com/embed/il593oynbl.js" async type="module"></script>
-<style>{`
-  wistia-player[media-id='il593oynbl']:not(:defined) {
-    background: center / contain no-repeat url('https://fast.wistia.com/embed/medias/il593oynbl/swatch');
-    display: block;
-    filter: blur(5px);
-    padding-top: 56.25%;
-  }
-`}</style>
-<wistia-player media-id="il593oynbl" aspect="1.7777777777777777"></wistia-player>
-              </p>
+            <div className="aspect-video w-full rounded-lg shadow-ai bg-muted border border-border overflow-hidden">
+              <wistia-player
+                media-id="il593oynbl"
+                aspect="1.7777777777777777"
+              ></wistia-player>
             </div>
           </div>
         </div>
