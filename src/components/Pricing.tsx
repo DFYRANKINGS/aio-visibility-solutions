@@ -52,7 +52,7 @@ const plans = [
       "Full AI visibility reporting",
       "Content optimization for key topics",
       "GMB services page optimization",
-      "Custom AI training data preparation"
+      "Custom AI training data preparation",
       "Entity expertise authority builder",
       "Missed opportunities analysis",
       "Dedicated account manager",
