@@ -14,7 +14,7 @@ const plans = [
       "AI crawlable website with link",
       "Root files for your website",
       "Page(s) schema for website",
-      "Citation building campaign",
+      "Missed opportunity analysis",
       "Priority email support"
     ],
     popular: false,
@@ -33,7 +33,7 @@ const plans = [
       "AI crawlable website with links",
       "Root files for your website",
       "Page(s) schema for website",
-      "Advanced citation building",
+      "Missed opportunity analysis",
       "Monthly strategy calls",
       "Priority email & phone support",
     ],
@@ -52,11 +52,11 @@ const plans = [
       "Full AI visibility reporting",
       "Content optimization for key topics",
       "GMB services page optimization",
-      "Premium citation building",
+      "Custom AI training data preparation"
+      "Entity expertise authority builder",
+      "Missed opportunities analysis",
       "Dedicated account manager",
       "Monthly strategy calls",
-      "Advanced competitor AI analysis",
-      "Custom AI training data preparation"
     ],
     popular: false,
     discount: "50% OFF",
