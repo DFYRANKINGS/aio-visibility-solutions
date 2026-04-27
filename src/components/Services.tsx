@@ -5,22 +5,22 @@ const services = [
   {
     title: "AI Data Publishing",
     description: "We publish your business data across 50+ high-authority platforms where AI bots crawl for information.",
-    features: ["Schema markup optimization", "Knowledge graph submission", "Directory listings", "Review platform optimization"]
+    features: ["Schema markup optimization", "Knowledge graph submission", "FAQs/QNAs/help articles", "Review platform optimization"]
   },
   {
     title: "Content Optimization",
     description: "Create AI-friendly content that answers common customer questions in the format AI agents prefer.",
-    features: ["FAQ optimization", "Question-based content", "Technical documentation", "Product descriptions"]
+    features: ["FAQ optimization", "Question-based content", "GMB services optimization", "Product descriptions"]
   },
   {
     title: "Citation Building",
     description: "Build authoritative citations and mentions across the web to establish credibility with AI systems.",
-    features: ["News mentions", "Industry publications", "Expert quotes", "Case study features"]
+    features: ["Social media mentions", "Industry publications", "Expert quotes", "Case study features"]
   },
   {
     title: "Performance Reporting",
     description: "We provide reports on the distribution across different AI platforms and links to your AI crawlable sites.",
-    features: ["AI mention tracking", "Recommendation analytics", "Competitor analysis", "ROI reporting"]
+    features: ["Live URL tracking", "Monthly reporting", "GMB analysis", "Visibility gap reports"]
   }
 ];
 
@@ -72,7 +72,7 @@ export const Services = ({ id }: ServicesProps) => {
             <h3 className="text-2xl font-bold mb-4">Why Traditional SEO Isn't Enough</h3>
             <p className="text-lg mb-6 opacity-90">
               Google's AI overviews, ChatGPT searches, and Perplexity answers are changing how people find businesses. 
-              Being the #1 ranked website on Google means nothing if AI gives the answer before users see your link.
+              Being the #1 ranked website on Google means nothing if AI blocks your prospects.
             </p>
             <Button size="lg" asChild className="bg-white text-secondary hover:bg-white/90">
               <a href="#pricing">Get Recommended by AI</a>
