@@ -143,7 +143,7 @@ export const Pricing = ({ id }: PricingProps) => {
           <Card className="p-8 bg-gradient-subtle border-primary/20 shadow-card max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold mb-4">AI Visibility Solutions</h3>
             <p className="text-lg text-muted-foreground mb-6">
-              We get our clients AI recommendations through our AI visibility system and offer monthly, quarterly and annual services to jump-start your online visibility, mentions, citations and recommendations across 15 of the primary AI search platforms. <b><i>Get your business recognized, validated and trusted by AI.</i></b>i            </p>
+              We get our clients AI recommendations through our AI visibility system and offer monthly, quarterly and annual services to jump-start your online visibility, mentions, citations and recommendations across 15 of the primary AI search platforms. <b><i>Get your business recognized, validated and trusted by AI.</i></b>            </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
                 <div className="text-2xl mb-2">📈</div>
