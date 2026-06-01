@@ -124,7 +124,10 @@ export const Pricing = ({ id }: PricingProps) => {
               </div>
               
               <div className="text-center mb-6">
-                <h3 className="text-xl font-bold mb-2">{plan.name}</h3>
+                <h3 className="text-xl font-bold mb-1">{plan.name}</h3>
+                {plan.tagline && (
+                  <p className="text-xs text-muted-foreground italic mb-3">{plan.tagline}</p>
+                )}
                 <div className="mb-2">
                   <div className="text-sm text-muted-foreground line-through">
                     {plan.originalPrice}
