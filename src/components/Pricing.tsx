@@ -28,7 +28,7 @@ const plans = [
     ],
     popular: false,
     discount: "67% OFF",
-    paymentLink: "https://buy.stripe.com/dRm8wPgGXd8H12k3Zvcwg0p"
+    paymentLink: "https://buy.stripe.com/14AeVdaiz9Wv8uM67Dcwg0z"
   },
   {
     name: "DFY — Full Annual Plan",
