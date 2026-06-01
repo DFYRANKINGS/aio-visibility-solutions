@@ -83,7 +83,7 @@ const plans = [
     ],
     popular: false,
     discount: "50% OFF",
-    paymentLink: "https://buy.stripe.com/3cI5kD1M32u35iAgMhcwg00"
+    paymentLink: "https://buy.stripe.com/6oU8wPaizd8H12k67Dcwg0A"
   }
 ];
 
