@@ -3,64 +3,87 @@ import { Button } from "@/components/ui/button";
 
 const plans = [
   {
-    name: "Monthly",
+    name: "AI Visibility Hub™ Software",
+    tagline: "DIY — Run it yourself for total control.",
     price: "$497",
-    originalPrice: "$997",
-    period: "Per month",
-    description: "Jump-start your AI visibility with month-to-month flexibility",
+    originalPrice: "$1,497",
+    period: "One-time",
+    description: "Get more AI-driven calls and cases while managing your visibility profile on your terms.",
     features: [
-      "AI data publishing across 3+ platforms",
-      "Full AI visibility reporting",
-      "AI crawlable website with link",
-      "Root files for your website",
-      "Page(s) schema for website",
-      "Missed opportunity analysis",
-      "Priority email support"
+      "Get recommended by AI for your case types and cities",
+      "Hundreds to thousands of AI-ready data points generated from your website",
+      "Position your firm across platforms AI systems crawl, train, and learn from",
+      "Find and answer the exact questions your future clients are asking AI",
+      "Uncover unanswered questions AI can't fully answer yet — and own them",
+      "Generate citation-ready content designed to get pulled into AI answers",
+      "Build authority signals AI uses to decide who to recommend",
+      "Discover and structure your firm's reviews and reputation for AI trust",
+      "Optimize every page of your website so AI understands and cites it",
+      "14-tool Authority Builder Suite to strengthen trust, expertise, and visibility",
+      "BONUS: Instant AI Content Publisher™ — turn your content into ready-to-publish pages",
+      "BONUS: AI Freshness Engine™ — keeps your firm active and re-evaluated every 30 days",
+      "BONUS: AI Indexing + Submission System™ — gets your content discovered faster",
+      "Ongoing updates as AI platforms evolve",
+      "67% savings for a limited time"
     ],
     popular: false,
-    discount: "50% OFF",
+    discount: "67% OFF",
     paymentLink: "https://buy.stripe.com/dRm8wPgGXd8H12k3Zvcwg0p"
   },
   {
-    name: "Quarterly",
-    price: "$997",
-    originalPrice: "$1,997",
-    period: "Every 3 months",
-    description: "Great balance of value and commitment for growing businesses",
-    features: [
-      "AI data publishing across 9+ platforms",
-      "Full AI visibility reporting",
-      "AI crawlable website with links",
-      "Root files for your website",
-      "Page(s) schema for website",
-      "Missed opportunity analysis",
-      "Monthly strategy calls",
-      "Priority email & phone support",
-    ],
-    popular: true,
-    discount: "50% OFF",
-    paymentLink: "https://buy.stripe.com/3cI5kD1M32u35iAgMhcwg00"
-  },
-  {
-    name: "Annual",
+    name: "DFY — Full Annual Plan",
+    tagline: "Hands-off positioning, managed by our team.",
     price: "$2,997",
     originalPrice: "$5,997",
     period: "Per year",
-    description: "Best value for serious businesses committed to AI visibility leadership",
+    description: "We build and optimize your firm's AI visibility profile for maximum exposure.",
     features: [
-      "AI data publishing across 55+ platforms",
-      "Full AI visibility reporting",
-      "Content optimization for key topics",
-      "GMB services page optimization",
-      "Custom AI training data preparation",
-      "Entity expertise authority builder",
-      "Missed opportunities analysis",
-      "Dedicated account manager",
-      "Monthly strategy calls",
+      "We position your firm to be recommended by AI for your case types and locations",
+      "We build and expand your AI visibility every month — so your presence compounds over time",
+      "We publish your firm across platforms AI systems crawl, train, and learn from",
+      "We find the exact questions your future clients are asking AI — and make sure your firm answers them",
+      "We uncover unanswered questions and position your firm where others aren't showing up",
+      "We create citation-ready content designed to be pulled into AI answers and recommendations",
+      "We optimize every page of your website so AI understands, trusts, and cites your firm",
+      "We structure your firm's reputation, reviews, and authority signals so AI favors you",
+      "We continuously analyze your visibility gaps and expand where you're missing opportunities",
+      "We layer your AI visibility month after month to highly trusted platforms",
+      "We analyze your GMB listing and make recommendations to increase your visibility across Google",
+      "We handle indexing and submission across Google, Bing, and AI search platforms",
+      "Dataset publishing to 55+ platforms across the web",
+      "AI distribution + entity reinforcement creates an \"authority network\" for your law firm",
+      "Priority support and dedicated management — we handle everything for you"
+    ],
+    popular: true,
+    discount: "50% OFF",
+    paymentLink: "https://buy.stripe.com/5kQ14n0HZ8Sr7qI9jPcwg02"
+  },
+  {
+    name: "Bilingual Distribution — English + Español",
+    tagline: "Twice the distribution. Twice the AI authority.",
+    price: "$4,997",
+    originalPrice: "$9,997",
+    period: "Per year",
+    description: "Everything in the Full Annual DFY Plan — delivered in both English and Spanish for double the AI visibility and expanded reach into Spanish-speaking markets.",
+    features: [
+      "Everything included in the Full Annual DFY Plan",
+      "Bilingual AI distribution — English + Español across 55+ platforms",
+      "Spanish-language entity reinforcement for AI search systems",
+      "Bilingual citation-ready content built to be pulled into AI answers",
+      "Spanish-language question discovery — capture queries competitors ignore",
+      "Bilingual authority signals across trusted multilingual platforms",
+      "Expanded AI referral capability into Spanish-speaking markets",
+      "Positions your firm as the bilingual AI authority in your practice areas",
+      "Twice the distribution surface = compounding AI visibility over time",
+      "We analyze your GMB listing and make recommendations to increase your visibility across Google",
+      "We handle indexing and submission across Google, Bing, and AI search platforms",
+      "Dataset publishing to 55+ platforms across the web in both English + Español",
+      "AI distribution + entity reinforcement creates an \"authority network\" for your law firm",
+      "Priority support and dedicated bilingual management"
     ],
     popular: false,
     discount: "50% OFF",
-    paymentLink: "https://buy.stripe.com/5kQ14n0HZ8Sr7qI9jPcwg02"
+    paymentLink: "https://buy.stripe.com/3cI5kD1M32u35iAgMhcwg00"
   }
 ];
 
@@ -101,7 +124,10 @@ export const Pricing = ({ id }: PricingProps) => {
               </div>
               
               <div className="text-center mb-6">
-                <h3 className="text-xl font-bold mb-2">{plan.name}</h3>
+                <h3 className="text-xl font-bold mb-1">{plan.name}</h3>
+                {plan.tagline && (
+                  <p className="text-xs text-muted-foreground italic mb-3">{plan.tagline}</p>
+                )}
                 <div className="mb-2">
                   <div className="text-sm text-muted-foreground line-through">
                     {plan.originalPrice}
