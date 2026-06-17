@@ -5,8 +5,7 @@ const plans = [
   {
     name: "AI Visibility Hub™ Software",
     tagline: "DIY — Run it yourself for total control.",
-    price: "$497",
-    originalPrice: "$1,497",
+    price: "$1,497",
     period: "One-time",
     description: "Get more AI-driven calls and cases while managing your visibility profile on your terms.",
     features: [
@@ -23,12 +22,10 @@ const plans = [
       "BONUS: Instant AI Content Publisher™ — turn your content into ready-to-publish pages",
       "BONUS: AI Freshness Engine™ — keeps your firm active and re-evaluated every 30 days",
       "BONUS: AI Indexing + Submission System™ — gets your content discovered faster",
-      "Ongoing updates as AI platforms evolve",
-      "67% savings for a limited time"
+      "Ongoing updates as AI platforms evolve"
     ],
     popular: false,
-    discount: "67% OFF",
-    paymentLink: "https://buy.stripe.com/14AeVdaiz9Wv8uM67Dcwg0z"
+    paymentLink: "https://buy.stripe.com/7sY5kD8ar1pZcL2anTcwg0H"
   },
   {
     name: "DFY — Full Annual Plan",
