@@ -3,29 +3,23 @@ import { Button } from "@/components/ui/button";
 
 const plans = [
   {
-    name: "AI Visibility Hub™ Software",
-    tagline: "DIY — Run it yourself for total control.",
-    price: "$1,497",
-    period: "One-time",
-    description: "Get more AI-driven calls and cases while managing your visibility profile on your terms.",
+    name: "Monthly",
+    tagline: "Flexible month-to-month support for firms that want a lower starting point.",
+    price: "$497",
+    originalPrice: "$997",
+    period: "month",
+    description: "Done-for-you AI visibility support with monthly refinement.",
     features: [
-      "Get recommended by AI for your case types and cities",
-      "Hundreds to thousands of AI-ready data points generated from your website",
-      "Position your firm across platforms AI systems crawl, train, and learn from",
-      "Find and answer the exact questions your future clients are asking AI",
-      "Uncover unanswered questions AI can't fully answer yet — and own them",
-      "Generate citation-ready content designed to get pulled into AI answers",
-      "Build authority signals AI uses to decide who to recommend",
-      "Discover and structure your firm's reviews and reputation for AI trust",
-      "Optimize every page of your website so AI understands and cites it",
-      "14-tool Authority Builder Suite to strengthen trust, expertise, and visibility",
-      "BONUS: Instant AI Content Publisher™ — turn your content into ready-to-publish pages",
-      "BONUS: AI Freshness Engine™ — keeps your firm active and re-evaluated every 30 days",
-      "BONUS: AI Indexing + Submission System™ — gets your content discovered faster",
-      "Ongoing updates as AI platforms evolve"
+      "Done-for-you AI visibility support",
+      "Core structured data and publishing",
+      "FAQ and content support",
+      "Platform publishing and monitoring",
+      "Monthly refinement and updates",
+      "Dedicated support"
     ],
     popular: false,
-    paymentLink: "https://buy.stripe.com/7sY5kD8ar1pZcL2anTcwg0H"
+    discount: "50% OFF",
+    paymentLink: "https://buy.stripe.com/dRm8wPgGXd8H12k3Zvcwg0p"
   },
   {
     name: "DFY — Full Annual Plan",
