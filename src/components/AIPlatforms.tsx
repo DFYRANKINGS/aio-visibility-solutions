@@ -21,13 +21,13 @@ export const AIPlatforms = () => {
       <div className="container mx-auto px-4">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-3xl md:text-4xl font-bold">
-            Get Recommended to Your Prospects in
+            Get Recommended Inside
             <span className="block text-primary">
-              15+ Major AI Platforms
+              15+ Major Answer Engines
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            We ensure your FAQs, case studies, and help articles are transformed into structured data, and distributed across 55+ platforms where LLMs and major AI bots crawl to gather their information from. AI bots / answer engines learn how to answer your prospects' questions (and give them a link to your website). The more platforms you are distributed to, the more your chances of being recognized + recommended.
+            Answer Engine Optimization (AEO) transforms your FAQs, case studies, and help articles into structured data, then distributes it across 55+ platforms where LLMs and major AI bots crawl for information. Answer engines learn how to respond to your prospects' questions — and cite your business in the answer. The more platforms you're distributed to, the greater your chances of being recognized and recommended.
           </p>
         </div>
         
@@ -45,10 +45,9 @@ export const AIPlatforms = () => {
         
         <div className="mt-16 text-center">
           <Card className="p-8 bg-gradient-subtle border-primary/20 shadow-ai max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold mb-4">The Problem is Real</h3>
+            <h3 className="text-2xl font-bold mb-4">Why AEO Matters Now</h3>
             <p className="text-lg text-muted-foreground mb-6">
-              Studies show that 67% of users never scroll past AI-generated answers. Why? Because their questions have been answered, or someone else was recommended in those answers. No need to scroll down Google! 
-              If your business isn't being recommended by AI agents, you're practically invisible to potential customers. Very few people scroll down Google to search for websites to search for information.  Answer engines are providing the information they are looking for and recommending experts.
+              Studies show 67% of users never scroll past AI-generated answers. Their question was already answered — or a competitor was recommended in that answer. Without Answer Engine Optimization, your business is practically invisible to potential customers. Answer engines are handing prospects the information they're searching for and recommending the experts they cite.
             </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
@@ -57,11 +56,11 @@ export const AIPlatforms = () => {
               </div>
               <div>
                 <div className="text-3xl font-bold text-primary mb-2">+420%</div>
-                <div className="text-sm">AI Query Growth</div>
+                <div className="text-sm">Answer Engine Query Growth</div>
               </div>
               <div>
                 <div className="text-3xl font-bold text-accent mb-2">78%</div>
-                <div className="text-sm">Trust AI Recommendations</div>
+                <div className="text-sm">Trust Answer Engine Recommendations</div>
               </div>
             </div>
           </Card>
