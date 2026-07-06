@@ -13,14 +13,14 @@ export const About = ({ id = "about" }: AboutProps) => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             About
             <span className="block text-primary">
-              AI Visibility Solutions
+              Answer Engine Optimization
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            We're the pioneering team that used to rank our clients on multiple first pages of Google with their most prominent keywords.
-            We recognized the seismic shift early, in how customers were discovering businesses just playing with AI in different answer
-            engines, like ChatGPT and so many more. But when AI agents started answering questions on Google before users would otherwise
-            scroll down the page to actual websites, we knew everything had changed.
+            We're the pioneering team that used to rank our clients on multiple first pages of Google for their most competitive keywords.
+            We recognized the seismic shift early — customers were discovering businesses inside answer engines like ChatGPT long before
+            they scrolled a search results page. When AI overviews started answering questions on Google itself, we knew traditional SEO
+            was no longer enough. Answer Engine Optimization (AEO) is what replaced it.
           </p>
         </div>
       </section>
@@ -31,22 +31,21 @@ export const About = ({ id = "about" }: AboutProps) => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h3 className="text-3xl md:text-4xl font-bold">
-                The Problem We Solve
+                The Problem AEO Solves
               </h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                We've been behind the scenes since 1998 creating websites, generating leads for our clients, and ranking them on Google.
-                But in 2023, we watched as our clients' Google rankings became meaningless overnight because no one was scrolling down
-                the page anymore to find them. Our clients' businesses that were ranking #1 even saw their traffic plummet. What we
-                discovered was AI overviews at the top of Google were providing instant answers, so people searching no longer needed
-                to continue scrolling down the page to discover their websites.
+                We've been behind the scenes since 1998 building websites, generating leads, and ranking clients on Google.
+                But in 2023, we watched our clients' Google rankings become meaningless overnight because no one was scrolling
+                the page to find them. Even #1 rankings saw traffic plummet. Why? Because AI overviews at the top of Google were
+                giving searchers instant answers — there was no need to scroll down and discover their websites.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                This was the pivoting moment that we decided to reverse-engineer our ranking strategy, to get our clients inside AI search.
-                After going from overwhelm to perplexed, we finally figured out where AI agents like ChatGPT, Google Gemini, and Perplexity
-                were getting their information from, and how to get our clients' information in front of them. Within a few short months—our
-                clients started getting recommended by AI agents who were answering their prospects' questions... which is when we made an
-                even bigger discovery: When those prospects clicked on the link and went to their websites, they had a higher conversion rate.
-                Why? Because most of their questions had already been answered, and they were pretty much ready to get started.
+                That was the pivoting moment. We reverse-engineered our ranking strategy for a new goal: getting our clients cited
+                <i> inside</i> answer engines. After months of research, we figured out where ChatGPT, Google Gemini, and Perplexity
+                source their information — and how to get our clients' data in front of them. Within months, our clients were being
+                recommended by answer engines that were answering their prospects' questions. Then we discovered something even bigger:
+                when those prospects clicked through, they converted at a higher rate. Why? Because most of their questions had already
+                been answered, and they were ready to buy. That's the power of Answer Engine Optimization.
               </p>
             </div>
             <Card className="p-8 bg-gradient-subtle shadow-ai">
@@ -57,7 +56,7 @@ export const About = ({ id = "about" }: AboutProps) => {
                   <span className="text-destructive font-bold">-67% ↓</span>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span>AI Query Volume</span>
+                  <span>Answer Engine Query Volume</span>
                   <span className="text-primary font-bold">+420% ↑</span>
                 </div>
                 <div className="flex items-center justify-between">
@@ -75,32 +74,32 @@ export const About = ({ id = "about" }: AboutProps) => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h3 className="text-3xl md:text-4xl font-bold mb-6">
-              Our Expertise
+              Our AEO Expertise
             </h3>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              We've spent 18+ months reverse-engineering how we got our clients discovered online. We went from ranking on Google to
-              distributing our clients' information directly to platforms where AI agents source their information, to give them precisely
-              what they needed to answer our clients' prospects' questions. This is how we started building the most
-              comprehensive AI visibility system available today.
+              We've spent 18+ months reverse-engineering how businesses get discovered inside answer engines. We went from ranking
+              on Google to distributing our clients' information directly to the platforms answer engines source from — giving them
+              exactly what they need to cite our clients when answering prospects' questions. That's how we built the most
+              comprehensive Answer Engine Optimization system available today.
             </p>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="p-6 text-center shadow-card">
               <div className="text-4xl mb-4">🤖</div>
-              <h4 className="text-xl font-bold mb-3">AI Agent Research</h4>
+              <h4 className="text-xl font-bold mb-3">Answer Engine Research</h4>
               <p className="text-muted-foreground">
-                Deep analysis of how ChatGPT, Gemini, Perplexity, and 15+ other AI platforms 
-                source and rank business recommendations.
+                Deep analysis of how ChatGPT, Gemini, Perplexity, and 15+ other answer engines
+                source and rank the businesses they recommend.
               </p>
             </Card>
             
             <Card className="p-6 text-center shadow-card">
               <div className="text-4xl mb-4">📊</div>
-              <h4 className="text-xl font-bold mb-3">Data Publishing</h4>
+              <h4 className="text-xl font-bold mb-3">AEO Data Publishing</h4>
               <p className="text-muted-foreground">
-                Proprietary network of 55+ high-authority platforms where we strategically 
-                publish business data for maximum AI crawl visibility.
+                A proprietary network of 55+ high-authority platforms where we strategically
+                publish your business data for maximum answer engine visibility.
               </p>
             </Card>
             
@@ -108,8 +107,8 @@ export const About = ({ id = "about" }: AboutProps) => {
               <div className="text-4xl mb-4">📈</div>
               <h4 className="text-xl font-bold mb-3">Performance Tracking</h4>
               <p className="text-muted-foreground">
-                Custom live reporting so you know where we are at all times, access your AI crawlable URLs, 
-                and optimize recommendations in real-time.
+                Live reporting so you always know where you stand across answer engines,
+                with access to your AI-crawlable URLs and real-time optimization.
               </p>
             </Card>
           </div>
@@ -124,7 +123,7 @@ export const About = ({ id = "about" }: AboutProps) => {
               Our Track Record
             </h3>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              We've helped over 300 businesses transform their AI visibility and dominate AI search.
+              We've helped over 300 businesses transform their AEO footprint and dominate answer engine results.
             </p>
           </div>
           
@@ -136,12 +135,12 @@ export const About = ({ id = "about" }: AboutProps) => {
             
             <Card className="p-6 text-center shadow-card">
               <div className="text-3xl font-bold text-primary mb-2">15+</div>
-              <div className="text-sm text-muted-foreground">AI Platforms Mastered</div>
+              <div className="text-sm text-muted-foreground">Answer Engines Mastered</div>
             </Card>
             
             <Card className="p-6 text-center shadow-card">
               <div className="text-3xl font-bold text-primary mb-2">300%</div>
-              <div className="text-sm text-muted-foreground">Average Visibility Increase</div>
+              <div className="text-sm text-muted-foreground">Average AEO Visibility Increase</div>
             </Card>
           </div>
         </div>

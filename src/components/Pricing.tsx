@@ -99,11 +99,11 @@ export const Pricing = ({ id }: PricingProps) => {
           <h2 className="text-3xl md:text-4xl font-bold">
             Transparent Pricing for
             <span className="block bg-gradient-primary bg-clip-text text-transparent">
-              AI Visibility Optimization Services
+              Answer Engine Optimization (AEO) Services
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-           We specialize in <b>AI distribution + entity reinforcement </b>across the web, to create an <b><i>authority network</i> </b>where AI bots crawl to get their information from. Why? Because AI trusts <i><b>connected, repeated, and consistent </b></i>entity recognition across the web.  
+           We specialize in <b>AEO distribution + entity reinforcement</b> across the web, creating an <b><i>authority network</i></b> where answer engines crawl for the information they cite. Why? Because AI trusts <i><b>connected, repeated, and consistent</b></i> entity recognition across the web.
           </p>
         </div>
         
@@ -171,9 +171,9 @@ export const Pricing = ({ id }: PricingProps) => {
         
         <div className="mt-16 text-center">
           <Card className="p-8 bg-gradient-subtle border-primary/20 shadow-card max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold mb-4">AI Visibility Solutions</h3>
+            <h3 className="text-2xl font-bold mb-4">Answer Engine Optimization Solutions</h3>
             <p className="text-lg text-muted-foreground mb-6">
-              We get our clients AI recommendations through our AI visibility system and offer monthly, quarterly and annual services to jump-start your online visibility, mentions, citations and recommendations across 15 of the primary AI search platforms. <b><i>Get your business recognized, validated and trusted by AI.</i></b>            </p>
+              We get our clients cited and recommended by answer engines through our AEO system, with monthly, quarterly, and annual services to jump-start your visibility, mentions, citations, and recommendations across 15+ of the primary answer engines. <b><i>Get your business recognized, validated, and trusted by AI.</i></b>            </p>
             <div className="grid md:grid-cols-3 gap-6 text-center">
               <div>
                 <div className="text-2xl mb-2">📈</div>
