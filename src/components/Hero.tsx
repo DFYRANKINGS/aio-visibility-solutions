@@ -52,7 +52,7 @@ export const Hero = () => {
           <div className="relative">
             <div className="aspect-video w-full rounded-lg shadow-ai bg-muted border border-border overflow-hidden">
               <iframe
-                src="https://fast.wistia.net/embed/iframe/il593oynbl"
+                src="https://fast.wistia.net/embed/iframe/pahw7r57u7"
                 title="Wistia Video"
                 allow="autoplay; fullscreen"
                 className="w-full h-full"
