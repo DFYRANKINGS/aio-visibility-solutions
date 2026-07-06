@@ -7,16 +7,16 @@ export const CTA = () => {
       <div className="container mx-auto px-4 text-center">
         <Card className="p-12 bg-white/10 backdrop-blur-lg border-white/20 shadow-glow max-w-4xl mx-auto text-white">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Don't Let AI
+            Don't Let Answer Engines
             <span className="block">Ignore Your Business</span>
           </h2>
           <p className="text-xl mb-8 opacity-90 leading-relaxed">
-            Every day you wait, your competitors are getting their website recommended by ChatGPT, Gemini, and so many other AI platforms. Start your AI visibility transformation today.
+            Every day you wait, your competitors are getting cited by ChatGPT, Gemini, Perplexity, and every other answer engine. Start your Answer Engine Optimization (AEO) today.
           </p>
 
           <div className="flex justify-center mb-10">
             <Button size="lg" className="text-lg px-8 py-6 bg-white text-primary hover:bg-white/90" asChild>
-              <a href="#pricing">Get Recommended by AI</a>
+              <a href="#pricing">Get Recommended by Answer Engines</a>
             </Button>
           </div>
 
