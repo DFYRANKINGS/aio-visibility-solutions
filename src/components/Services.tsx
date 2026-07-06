@@ -34,14 +34,14 @@ export const Services = ({ id }: ServicesProps) => {
       <div className="container mx-auto px-4">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-3xl md:text-4xl font-bold">
-            How We Make Your Business
+            How We Optimize Your Business For
             <span className="block bg-gradient-primary bg-clip-text text-transparent">
-              AI-Visible
+              Answer Engines
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Our comprehensive approach ensures your business is recognized, discoverable and recommended 
-            by AI agents when prospects search for your services.
+            Our comprehensive Answer Engine Optimization (AEO) approach ensures your business is recognized, discoverable, and
+            recommended by answer engines when prospects search for your services.
           </p>
         </div>
         
@@ -71,11 +71,11 @@ export const Services = ({ id }: ServicesProps) => {
           <Card className="p-8 bg-secondary text-secondary-foreground shadow-ai max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold mb-4">Why Traditional SEO Isn't Enough</h3>
             <p className="text-lg mb-6 opacity-90">
-              Google's AI overviews, ChatGPT searches, and Perplexity answers are changing how people find businesses. 
-              Being the #1 ranked website on Google means nothing if AI blocks your prospects.
+              Google's AI overviews, ChatGPT, and Perplexity are changing how people find businesses.
+              Ranking #1 on Google means nothing if answer engines never cite you. Answer Engine Optimization (AEO) is how you show up.
             </p>
             <Button size="lg" asChild className="bg-white text-secondary hover:bg-white/90">
-              <a href="#pricing">Get Recommended by AI</a>
+              <a href="#pricing">Get Recommended by Answer Engines</a>
             </Button>
           </Card>
         </div>
