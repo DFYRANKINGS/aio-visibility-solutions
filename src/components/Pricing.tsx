@@ -99,11 +99,11 @@ export const Pricing = ({ id }: PricingProps) => {
           <h2 className="text-3xl md:text-4xl font-bold">
             Transparent Pricing for
             <span className="block bg-gradient-primary bg-clip-text text-transparent">
-              AI Visibility Optimization Services
+              Answer Engine Optimization (AEO) Services
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-           We specialize in <b>AI distribution + entity reinforcement </b>across the web, to create an <b><i>authority network</i> </b>where AI bots crawl to get their information from. Why? Because AI trusts <i><b>connected, repeated, and consistent </b></i>entity recognition across the web.  
+           We specialize in <b>AEO distribution + entity reinforcement</b> across the web, creating an <b><i>authority network</i></b> where answer engines crawl for the information they cite. Why? Because AI trusts <i><b>connected, repeated, and consistent</b></i> entity recognition across the web.
           </p>
         </div>
         
