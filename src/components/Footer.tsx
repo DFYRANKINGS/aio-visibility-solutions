@@ -5,25 +5,25 @@ export const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           <div className="col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">AI</span>
+              <div className="w-10 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
+                <span className="text-white font-bold text-sm">AEO</span>
               </div>
-              <h3 className="text-xl font-semibold">AI Visibility Solutions</h3>
+              <h3 className="text-xl font-semibold">Answer Engine Optimization</h3>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md">
-              In today's digital landscape, AI visibility in search platforms like ChatGPT, Gemini, and Claude 
-              is more crucial than traditional Google rankings. AI agents are becoming the primary way customers 
-              discover businesses, making AI optimization the new frontier of digital marketing.
+              In today's digital landscape, being cited by answer engines like ChatGPT, Gemini, Perplexity, and Claude
+              matters more than traditional Google rankings. Answer engines are becoming the primary way customers
+              discover businesses — making Answer Engine Optimization (AEO) the new frontier of digital marketing.
             </p>
           </div>
           
           <div>
             <h4 className="font-semibold mb-4">Services</h4>
             <ul className="space-y-2">
-              <li><a href="#services" className="text-muted-foreground hover:text-foreground transition-smooth">AI Data Publishing</a></li>
-              <li><a href="#services" className="text-muted-foreground hover:text-foreground transition-smooth">Content Optimization</a></li>
-              <li><a href="#services" className="text-muted-foreground hover:text-foreground transition-smooth">Citation Building</a></li>
-              <li><a href="#services" className="text-muted-foreground hover:text-foreground transition-smooth">Performance Monitoring</a></li>
+              <li><a href="#services" className="text-muted-foreground hover:text-foreground transition-smooth">AEO Data Publishing</a></li>
+              <li><a href="#services" className="text-muted-foreground hover:text-foreground transition-smooth">Answer Engine Content Optimization</a></li>
+              <li><a href="#services" className="text-muted-foreground hover:text-foreground transition-smooth">Citation & Authority Building</a></li>
+              <li><a href="#services" className="text-muted-foreground hover:text-foreground transition-smooth">AEO Performance Reporting</a></li>
             </ul>
           </div>
           
