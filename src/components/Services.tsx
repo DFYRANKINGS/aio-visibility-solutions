@@ -3,24 +3,24 @@ import { Button } from "@/components/ui/button";
 
 const services = [
   {
-    title: "AI Data Publishing",
-    description: "We publish your business data across 50+ high-authority platforms where AI bots crawl for information.",
-    features: ["Schema markup optimization", "Knowledge graph submission", "FAQs/QNAs/help articles", "Review platform optimization"]
+    title: "AEO Data Publishing",
+    description: "We publish your business data across 55+ high-authority platforms where answer engines crawl for information.",
+    features: ["Schema markup optimization", "Knowledge graph submission", "FAQs / QNAs / help articles", "Review platform optimization"]
   },
   {
-    title: "Content Optimization",
-    description: "Create AI-friendly content that answers common customer questions in the format AI agents prefer.",
+    title: "Answer Engine Content Optimization",
+    description: "Create AEO-friendly content that answers common customer questions in the exact format answer engines prefer to cite.",
     features: ["FAQ optimization", "Question-based content", "GMB services optimization", "Product descriptions"]
   },
   {
-    title: "Citation Building",
-    description: "Build authoritative citations and mentions across the web to establish credibility with AI systems.",
+    title: "Citation & Authority Building",
+    description: "Build authoritative citations and mentions across the web so answer engines trust and recommend your business.",
     features: ["Social media mentions", "Industry publications", "Expert quotes", "Case study features"]
   },
   {
-    title: "Performance Reporting",
-    description: "We provide reports on the distribution across different AI platforms and links to your AI crawlable sites.",
-    features: ["Live URL tracking", "Monthly reporting", "GMB analysis", "Visibility gap reports"]
+    title: "AEO Performance Reporting",
+    description: "Reports on your distribution across answer engines, plus direct links to your AI-crawlable pages.",
+    features: ["Live URL tracking", "Monthly reporting", "GMB analysis", "AEO visibility gap reports"]
   }
 ];
 
