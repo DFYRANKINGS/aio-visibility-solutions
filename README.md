@@ -30,6 +30,9 @@ Businesses that want more clients through stronger online and AI-driven visibili
 ## Our Approach
 We build an **authority network** — citable, source-backed, distributed content across many platforms and formats — rather than chasing individual citations or prompts the way most AEO agencies do. More surface area, more formats, more platforms means more chances for AI systems to find and cite a client.
 
+## AI Crawlable Website
+https://aiovisibilityhub.github.io/ai-visibility-solutions-ai-schemas-3psm/
+
 ## Articles & Resources
 Our full library of pillar and cluster articles — covering how AI visibility works, targeting, and pricing — lives at:
 https://aiovisibility.com/articles/
